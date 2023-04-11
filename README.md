@@ -1,4 +1,6 @@
-# Comandos básicos node js para trabajar con MySql y Express
+# Repositorio JavaScript
+
+### Le damos la bienvenida a todos nuestros proyectos elaborados con JavaScript y algunos de sus más populares frameworks y librerías como ReactJs, NodeJs, express, entre otros.
 
 ## Instalar express
 npm install/i express
