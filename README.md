@@ -1,6 +1,18 @@
 # Repositorio JavaScript
 
-### Le damos la bienvenida a todos nuestros proyectos elaborados con JavaScript y algunos de sus más populares frameworks y librerías como ReactJs, NodeJs, express, entre otros.
+### Descripción general
+
+En este repositorio podrán encontrar una gran variedad de proyectos elaborados con **Html**, **Css** y **JavaScript** con la integración de algunos de sus más populares frameworks y librerías como **ReactJs**, **NodeJs**, **express**, entre otros.
+
+## Glosario básico para entender JavaScript
+### Si estás iniciando y eres nuevo, puedes valerte de este glosario como tu mano derecha :)
+
+**Variable:** Una variable es un dato que guarda otro dato. En otras palabras, imaginemos que tenemos un frasco de mermelada que nos indica que hay 500ml de producto dentro. Con *JavaScript*, esto se puede representar de la siguiente forma:
+
+ ~~~
+var frascoDeMermelada = 500;
+console.log(frascoDeMermelada);
+~~~
 
 ## Instalar express
 npm install/i express
