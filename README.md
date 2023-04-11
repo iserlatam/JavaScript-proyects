@@ -7,21 +7,20 @@ En este repositorio podrán encontrar una gran variedad de proyectos elaborados 
 ## Glosario básico para entender JavaScript
 ### Si estás iniciando y eres nuevo, puedes valerte de este glosario como tu mano derecha :)
 
-**Variable:** Una variable es un dato que guarda otro dato. En otras palabras, imaginemos que tenemos un frasco de mermelada que nos indica que hay 500ml de producto dentro. Con *JavaScript*, esto se puede representar de la siguiente forma:
+**Tipos de datos**: Existen distintos tipos de datos que los lenguajes de programación en general utilizan y que podemos utilizar a nuestro favor. Los más básicos son los caracteres, enteros, reales, y binarios.
+
+1. Caracter o char: 
+
+    Este tipo de dato nos permite almacenar o guardar un texto. Se les puede identificar gracias a que van encerrados entre comillas simples o dobles. No se pueden hacer operaciones matemáticas si el número está encerrado entre comillas. Un ejemplo sería:
+
+    ~~~
+    var nombre = "Iser Latam";
+    console.log(nombre); // muestra por pantalla el nombre "Iser Latam"
+    ~~~
+
+**Variables:** Una variable es un dato que guarda otro dato. En otras palabras, imaginemos que tenemos un frasco de mermelada que nos indica que hay 500ml de producto dentro. Con *JavaScript*, esto se puede representar de la siguiente forma:
 
  ~~~
 var frascoDeMermelada = 500;
-console.log(frascoDeMermelada);
+console.log(frascoDeMermelada); // Muestra por pantalla el contenido de la variable o del frasco de mermelada, 500
 ~~~
-
-## Instalar express
-npm install/i express
-
-## Instalar mysql y mysql connection
-npm install/i mysql express-myconnection
-
-## IMPORTANTE: Para manipular los datos extraídos de una base de datos es necesario instalar una librería que nos permita convertir y decodificar esa información como objetos JSON. Para lograr esto, utilizamos BODY-PARSER
-npm install/i body-parser
-
-## Instalar un sistema de vistas para poder visualizar nuestro contenido sin ningún problema. Esta vez, agregamos HANDLEBARS
-npm install/i express-handlebars
